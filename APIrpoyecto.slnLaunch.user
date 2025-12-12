@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "APIrpoyecto\\APIrpoyecto.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MCPServer\\MCPServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

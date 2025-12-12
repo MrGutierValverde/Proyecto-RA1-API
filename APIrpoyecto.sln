@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIrpoyecto", "APIrpoyecto\APIrpoyecto.csproj", "{36D15943-CD62-4603-92B8-F9F03A4B7A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPServer", "MCPServer\MCPServer.csproj", "{4E9FF0A6-8CD6-482B-872C-65CB7AE94204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D15943-CD62-4603-92B8-F9F03A4B7A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D15943-CD62-4603-92B8-F9F03A4B7A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D15943-CD62-4603-92B8-F9F03A4B7A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D15943-CD62-4603-92B8-F9F03A4B7A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9FF0A6-8CD6-482B-872C-65CB7AE94204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9FF0A6-8CD6-482B-872C-65CB7AE94204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9FF0A6-8CD6-482B-872C-65CB7AE94204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9FF0A6-8CD6-482B-872C-65CB7AE94204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76AC7506-7FCE-40F7-919C-678D138B6EB3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,230 @@
+[
+  {
+    "ContainingType": "APIrpoyecto.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "APIrpoyecto.Controllers.UserCredentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "APIrpoyecto.Controllers.UserCredentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.McpController",
+    "Method": "Query",
+    "RelativePath": "api/Mcp/query",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIrpoyecto.Controllers.McpQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "Delete",
+    "RelativePath": "api/MonsterDAOMemory/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/MonsterDAOMemory/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "GetById",
+    "RelativePath": "api/MonsterDAOMemory/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "Insert",
+    "RelativePath": "api/MonsterDAOMemory/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monster",
+        "Type": "APIrpoyecto.Models.MonsterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "InsertMany",
+    "RelativePath": "api/MonsterDAOMemory/InsertMany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monsters",
+        "Type": "System.Collections.Generic.List\u00601[[APIrpoyecto.Models.MonsterDTO, APIrpoyecto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOMemoryController",
+    "Method": "Update",
+    "RelativePath": "api/MonsterDAOMemory/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monster",
+        "Type": "APIrpoyecto.Models.MonsterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "Delete",
+    "RelativePath": "api/MonsterDAOsql/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "GetAll",
+    "RelativePath": "api/MonsterDAOsql/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "GetById",
+    "RelativePath": "api/MonsterDAOsql/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "Insert",
+    "RelativePath": "api/MonsterDAOsql/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monster",
+        "Type": "APIrpoyecto.Models.MonsterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "InsertMany",
+    "RelativePath": "api/MonsterDAOsql/InsertMany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monsters",
+        "Type": "System.Collections.Generic.List\u00601[[APIrpoyecto.Models.MonsterDTO, APIrpoyecto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIrpoyecto.Controllers.MonsterDAOsqlController",
+    "Method": "Update",
+    "RelativePath": "api/MonsterDAOsql/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monster",
+        "Type": "APIrpoyecto.Models.MonsterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
